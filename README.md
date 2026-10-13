@@ -1,4 +1,5 @@
-## CLBFC v1.12.1
+## CLBFC v1.12.2
+
 
 Command Line Batch File Creator (CLBFC)
 
@@ -25,3 +26,4 @@ clbfc -c -fs structure.mask output --lang de
 Notes
 
 This release continues the stabilization of CLBFC and introduces the current generation of FiMode and filesystem creation workflows.
+

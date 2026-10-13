@@ -6,7 +6,7 @@ namespace clbfc;
 
 class Program
 {
-    public const string Version = "1.12.1";
+    public const string Version = "1.12.2";
     static int Main(string[] args)
     {
         return CommandLineHandler.Run(args);
