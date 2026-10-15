@@ -1,5 +1,4 @@
-## CLBFC v1.12.2
-
+## CLBFC v1.12.3
 
 Command Line Batch File Creator (CLBFC)
 
@@ -15,15 +14,17 @@ Command Line Batch File Creator (CLBFC)
 - `-c -fi -o` Open existing mask or text files
 - `-c -fs` Create structures from mask files
 - `--lang` Force language selection
+- `-version` Show CLBFC version
 
 ### Examples
 
 ```bash
+clbfc -version
+clbfc --help
 clbfc -c -fi
 clbfc -c -fi file1.txt folder1 output
 clbfc -c -fs structure.mask output --lang de
 
 Notes
-
-This release continues the stabilization of CLBFC and introduces the current generation of FiMode and filesystem creation workflows.
-
+Version 1.12.3 fixes the -version option so it works both on its own and
+when combined with -c. The release continues the stabilization of CLBFC.

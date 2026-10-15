@@ -34,6 +34,14 @@ namespace clbfc
                 return 0;
             }
 
+            // Version (standalone or combined with -c)
+            if (flags.Contains("-version"))
+            {
+                Console.WriteLine("Command Line Batch FileCreator (clbfc)");
+                Console.WriteLine($"Version: {Program.Version}");
+                return 0;
+            }
+
             bool create = flags.Contains("-c");
             bool fromInput = flags.Contains("-fi");
             bool fromFile = flags.Contains("-fs");
